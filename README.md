@@ -1,0 +1,14 @@
+# Deoxys
+> An Experimental Embeddable Browser Engine
+
+## how to build
+requirements:
+CMake
+Windows SDK
+C++ Development Packages and Executables by VS 2026 Studio
+
+```bash
+cd build
+cmake ..
+cmake --build .
+```
