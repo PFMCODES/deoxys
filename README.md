@@ -15,3 +15,5 @@ cmake --build .
 
 an executable will be generated at build/Debug/
 with the name deoxys
+
+Licensed under the MIT License
