@@ -12,7 +12,7 @@
   <img
     src="./icons/white.svg"
     alt="Deoxys Logo"
-    style="max-width: 500px">
+    style="max-width: 200px">
 </picture>
 
 </div>
