@@ -1,9 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"C:/Users/admin/Desktop/Krushna/deoxys/build/cmake_install.cmake",
-		"C:/Users/admin/Desktop/Krushna/deoxys/build/deps/GLFW/cmake_install.cmake",
-		"C:/Users/admin/Desktop/Krushna/deoxys/build/deps/GLFW/src/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
