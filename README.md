@@ -12,7 +12,7 @@
   <img
     src="./icons/white.svg"
     alt="Deoxys Logo"
-    style="max-width: 50px">
+    width="100px">
 </picture>
 
 </div>
@@ -24,9 +24,9 @@
 
 ## how to build
 requirements:
-CMake
-Windows SDK
-C++ Development Packages and Executables by VS 2026 Studio
+- CMake
+- Windows SDK
+- C++ Development Packages and Executables by VS 2026 Studio
 
 ```bash
 cd build
