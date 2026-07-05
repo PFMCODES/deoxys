@@ -1,0 +1,11 @@
+C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/glad.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/deoxys.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/INSTALL.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/deps/GLFW/CMakeFiles/uninstall.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/deps/GLFW/CMakeFiles/INSTALL.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/deps/GLFW/CMakeFiles/ALL_BUILD.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/deps/GLFW/src/CMakeFiles/glfw.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/deps/GLFW/src/CMakeFiles/update_mappings.dir
+C:/Users/admin/Desktop/Krushna/deoxys/build/deps/GLFW/src/CMakeFiles/INSTALL.dir

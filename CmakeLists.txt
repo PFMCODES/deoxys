@@ -28,6 +28,8 @@ add_executable(deoxys
     main.cpp
     window.cpp
     Colorion/Colorion.cpp
+    Archer/Archer.cpp
+    System/theme/theme.cpp
 )
 
 target_link_libraries(deoxys PRIVATE

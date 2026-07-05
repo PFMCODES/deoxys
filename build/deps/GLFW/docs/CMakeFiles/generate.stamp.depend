@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindDoxygen.cmake
+C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Users/admin/Desktop/Krushna/deoxys/deps/GLFW/docs/CMakeLists.txt

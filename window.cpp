@@ -1,9 +1,12 @@
 #define GLFW_INCLUDE_NONE
+#define STB_IMAGE_IMPLEMENTATION
+#include "./deps/stb/stb_image.h"
 #include <iostream>
+#include <cstdio>
 #include <glad/gl.h>
 #include <GLFW/glfw3.h>
 #include "./Colorion/Colorion.h"
-#include <iomanip>
+#include "./System/theme/theme.h"
 
 int destroyWindow(GLFWwindow* window) {
     if (window) {
@@ -42,6 +45,45 @@ GLFWwindow* createWindow(const char* title, const int* h, const int* w, bool max
     }
 
     GLFWwindow* window = glfwCreateWindow(*w, *h, title, nullptr, nullptr);
+
+    int width, height, channels;
+    char* iconpath;
+    const char* extension;
+
+    #if defined(_WIN32)
+    extension = "ico";
+    #elif defined(__linux__)
+    extension = "png";
+    #elif defined(__APPLE__)
+    extension = "icns";
+    #endif
+
+    std::string iconPath =
+        std::string("./icons/") +
+        (Theme::getSystemTheme() == Theme::themes::Dark ? "dark." : "light.") +
+        extension;
+
+    unsigned char* pixels = stbi_load(iconPath.c_str(), &width, &height, &channels, 4);
+    std::cout << "Icon Path: " << iconPath << ", " << iconPath.c_str() << std::endl;
+
+    if (pixels) 
+    {
+        // 3. Populate the GLFWimage structure
+        GLFWimage images[1];
+        images[0].width = width;
+        images[0].height = height;
+        images[0].pixels = pixels;
+
+        // 4. Apply the icon to your window
+        glfwSetWindowIcon(window, 1, images);
+
+        // 5. Free the memory allocated by stb_image immediately after setting it
+        stbi_image_free(pixels);
+    } 
+    else 
+    {
+        std::cerr << "Failed to load window icon: " << stbi_failure_reason() << std::endl;
+    }
 
     if (!window)
     {

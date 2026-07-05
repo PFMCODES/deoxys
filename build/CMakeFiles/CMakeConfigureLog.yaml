@@ -1,0 +1,2858 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.0.5+e22287bf1 for .NET Framework
+      Build started 03-Jul-2026 13:54:57.
+      
+      Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\4.3.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\4.3.4\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\4.3.4\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.16
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/4.3.4/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/admin/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/MinGW/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/node_modules/.bin/"
+      - "C:/Users/admin/node_modules/.bin/"
+      - "C:/Users/node_modules/.bin/"
+      - "C:/node_modules/.bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/AppData/Local/Python/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:37 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "_CMAKE_TOOL_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lld-link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/admin/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/MinGW/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/node_modules/.bin/"
+      - "C:/Users/admin/node_modules/.bin/"
+      - "C:/Users/node_modules/.bin/"
+      - "C:/node_modules/.bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/AppData/Local/Python/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/lld-link"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/lld-link"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/lld-link"
+      - "C:/Windows/SysWOW64/lld-link.com"
+      - "C:/Windows/SysWOW64/lld-link.exe"
+      - "C:/Windows/SysWOW64/lld-link"
+      - "C:/Windows/lld-link.com"
+      - "C:/Windows/lld-link.exe"
+      - "C:/Windows/lld-link"
+      - "C:/Windows/SysWOW64/wbem/lld-link.com"
+      - "C:/Windows/SysWOW64/wbem/lld-link.exe"
+      - "C:/Windows/SysWOW64/wbem/lld-link"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lld-link"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.com"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
+      - "C:/Users/admin/lld-link.com"
+      - "C:/Users/admin/lld-link.exe"
+      - "C:/Users/admin/lld-link"
+      - "C:/TDM-GCC-64/bin/lld-link.com"
+      - "C:/TDM-GCC-64/bin/lld-link.exe"
+      - "C:/TDM-GCC-64/bin/lld-link"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/lld-link"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/lld-link"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/lld-link.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/lld-link.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/lld-link"
+      - "C:/ProgramData/chocolatey/bin/lld-link.com"
+      - "C:/ProgramData/chocolatey/bin/lld-link.exe"
+      - "C:/ProgramData/chocolatey/bin/lld-link"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lld-link"
+      - "C:/Program Files (x86)/Incredibuild/lld-link.com"
+      - "C:/Program Files (x86)/Incredibuild/lld-link.exe"
+      - "C:/Program Files (x86)/Incredibuild/lld-link"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/lld-link"
+      - "C:/Program Files/GitHub CLI/lld-link.com"
+      - "C:/Program Files/GitHub CLI/lld-link.exe"
+      - "C:/Program Files/GitHub CLI/lld-link"
+      - "C:/Program Files/dotnet/lld-link.com"
+      - "C:/Program Files/dotnet/lld-link.exe"
+      - "C:/Program Files/dotnet/lld-link"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/lld-link.com"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/lld-link.exe"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/lld-link"
+      - "C:/Program Files/nodejs/lld-link.com"
+      - "C:/Program Files/nodejs/lld-link.exe"
+      - "C:/Program Files/nodejs/lld-link"
+      - "C:/Program Files (x86)/CMake/bin/lld-link.com"
+      - "C:/Program Files (x86)/CMake/bin/lld-link.exe"
+      - "C:/Program Files (x86)/CMake/bin/lld-link"
+      - "C:/Program Files/LLVM/bin/lld-link.com"
+    found: "C:/Program Files/LLVM/bin/lld-link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "link"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/admin/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/MinGW/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/node_modules/.bin/"
+      - "C:/Users/admin/node_modules/.bin/"
+      - "C:/Users/node_modules/.bin/"
+      - "C:/node_modules/.bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/AppData/Local/Python/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/link.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mt"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/admin/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/MinGW/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/node_modules/.bin/"
+      - "C:/Users/admin/node_modules/.bin/"
+      - "C:/Users/node_modules/.bin/"
+      - "C:/node_modules/.bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/AppData/Local/Python/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.com"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt.exe"
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/mt"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/mt.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/mt.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/mt"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/mt.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/mt.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/mt"
+      - "C:/Windows/SysWOW64/mt.com"
+      - "C:/Windows/SysWOW64/mt.exe"
+      - "C:/Windows/SysWOW64/mt"
+      - "C:/Windows/mt.com"
+      - "C:/Windows/mt.exe"
+      - "C:/Windows/mt"
+      - "C:/Windows/SysWOW64/wbem/mt.com"
+      - "C:/Windows/SysWOW64/wbem/mt.exe"
+      - "C:/Windows/SysWOW64/wbem/mt"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/mt"
+      - "C:/Windows/SysWOW64/OpenSSH/mt.com"
+      - "C:/Windows/SysWOW64/OpenSSH/mt.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/mt"
+      - "C:/Program Files/Git/cmd/mt.com"
+      - "C:/Program Files/Git/cmd/mt.exe"
+      - "C:/Program Files/Git/cmd/mt"
+      - "C:/Users/admin/mt.com"
+      - "C:/Users/admin/mt.exe"
+      - "C:/Users/admin/mt"
+      - "C:/TDM-GCC-64/bin/mt.com"
+      - "C:/TDM-GCC-64/bin/mt.exe"
+      - "C:/TDM-GCC-64/bin/mt"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/mt.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/mt.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/mt"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/mt.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/mt.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/mt"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/mt.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/mt.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/mt"
+      - "C:/ProgramData/chocolatey/bin/mt.com"
+      - "C:/ProgramData/chocolatey/bin/mt.exe"
+      - "C:/ProgramData/chocolatey/bin/mt"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mt"
+      - "C:/Program Files (x86)/Incredibuild/mt.com"
+      - "C:/Program Files (x86)/Incredibuild/mt.exe"
+      - "C:/Program Files (x86)/Incredibuild/mt"
+      - "C:/Program Files (x86)/GnuWin32/bin/mt.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/mt.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/mt"
+      - "C:/Program Files/GitHub CLI/mt.com"
+      - "C:/Program Files/GitHub CLI/mt.exe"
+      - "C:/Program Files/GitHub CLI/mt"
+      - "C:/Program Files/dotnet/mt.com"
+      - "C:/Program Files/dotnet/mt.exe"
+      - "C:/Program Files/dotnet/mt"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/mt.com"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/mt.exe"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/mt"
+      - "C:/Program Files/nodejs/mt.com"
+      - "C:/Program Files/nodejs/mt.exe"
+      - "C:/Program Files/nodejs/mt"
+      - "C:/Program Files (x86)/CMake/bin/mt.com"
+      - "C:/Program Files (x86)/CMake/bin/mt.exe"
+      - "C:/Program Files (x86)/CMake/bin/mt"
+      - "C:/Program Files/LLVM/bin/mt.com"
+      - "C:/Program Files/LLVM/bin/mt.exe"
+      - "C:/Program Files/LLVM/bin/mt"
+      - "C:/MinGW/mt.com"
+      - "C:/MinGW/mt.exe"
+      - "C:/MinGW/mt"
+      - "C:/Users/admin/.cargo/bin/mt.com"
+      - "C:/Users/admin/.cargo/bin/mt.exe"
+      - "C:/Users/admin/.cargo/bin/mt"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/mt.com"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/mt.exe"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/mt"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/mt.com"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/mt.exe"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/mt"
+      - "C:/Users/admin/Desktop/node_modules/.bin/mt.com"
+      - "C:/Users/admin/Desktop/node_modules/.bin/mt.exe"
+      - "C:/Users/admin/Desktop/node_modules/.bin/mt"
+      - "C:/Users/admin/node_modules/.bin/mt.com"
+      - "C:/Users/admin/node_modules/.bin/mt.exe"
+      - "C:/Users/admin/node_modules/.bin/mt"
+      - "C:/Users/node_modules/.bin/mt.com"
+      - "C:/Users/node_modules/.bin/mt.exe"
+      - "C:/Users/node_modules/.bin/mt"
+      - "C:/node_modules/.bin/mt.com"
+      - "C:/node_modules/.bin/mt.exe"
+      - "C:/node_modules/.bin/mt"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/mt.com"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/mt.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/mt"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/mt"
+      - "C:/Users/admin/AppData/Local/Python/bin/mt.com"
+      - "C:/Users/admin/AppData/Local/Python/bin/mt.exe"
+      - "C:/Users/admin/AppData/Local/Python/bin/mt"
+      - "C:/Users/admin/AppData/Roaming/npm/mt.com"
+      - "C:/Users/admin/AppData/Roaming/npm/mt.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/mt"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "lib"
+    candidate_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/admin/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/MinGW/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/node_modules/.bin/"
+      - "C:/Users/admin/node_modules/.bin/"
+      - "C:/Users/node_modules/.bin/"
+      - "C:/node_modules/.bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/AppData/Local/Python/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+    searched_directories:
+      - "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.com"
+    found: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/lib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:592 (enable_language)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC.cmake:565 (__windows_compiler_msvc_enable_rc)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "rc"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/admin/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/MinGW/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/node_modules/.bin/"
+      - "C:/Users/admin/node_modules/.bin/"
+      - "C:/Users/node_modules/.bin/"
+      - "C:/node_modules/.bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/AppData/Local/Python/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files (x86)/Deoxys/bin/"
+      - "C:/Program Files (x86)/Deoxys/sbin/"
+      - "C:/Program Files (x86)/Deoxys/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/rc"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/rc.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/rc.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/rc"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/rc.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/rc.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/rc"
+      - "C:/Windows/SysWOW64/rc.com"
+      - "C:/Windows/SysWOW64/rc.exe"
+      - "C:/Windows/SysWOW64/rc"
+      - "C:/Windows/rc.com"
+      - "C:/Windows/rc.exe"
+      - "C:/Windows/rc"
+      - "C:/Windows/SysWOW64/wbem/rc.com"
+      - "C:/Windows/SysWOW64/wbem/rc.exe"
+      - "C:/Windows/SysWOW64/wbem/rc"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/rc"
+      - "C:/Windows/SysWOW64/OpenSSH/rc.com"
+      - "C:/Windows/SysWOW64/OpenSSH/rc.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/rc"
+      - "C:/Program Files/Git/cmd/rc.com"
+      - "C:/Program Files/Git/cmd/rc.exe"
+      - "C:/Program Files/Git/cmd/rc"
+      - "C:/Users/admin/rc.com"
+      - "C:/Users/admin/rc.exe"
+      - "C:/Users/admin/rc"
+      - "C:/TDM-GCC-64/bin/rc.com"
+      - "C:/TDM-GCC-64/bin/rc.exe"
+      - "C:/TDM-GCC-64/bin/rc"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/rc.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/rc.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/rc"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/rc.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/rc.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/rc"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/rc.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/rc.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/rc"
+      - "C:/ProgramData/chocolatey/bin/rc.com"
+      - "C:/ProgramData/chocolatey/bin/rc.exe"
+      - "C:/ProgramData/chocolatey/bin/rc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/rc"
+      - "C:/Program Files (x86)/Incredibuild/rc.com"
+      - "C:/Program Files (x86)/Incredibuild/rc.exe"
+      - "C:/Program Files (x86)/Incredibuild/rc"
+      - "C:/Program Files (x86)/GnuWin32/bin/rc.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/rc.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/rc"
+      - "C:/Program Files/GitHub CLI/rc.com"
+      - "C:/Program Files/GitHub CLI/rc.exe"
+      - "C:/Program Files/GitHub CLI/rc"
+      - "C:/Program Files/dotnet/rc.com"
+      - "C:/Program Files/dotnet/rc.exe"
+      - "C:/Program Files/dotnet/rc"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/rc.com"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/rc.exe"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/rc"
+      - "C:/Program Files/nodejs/rc.com"
+      - "C:/Program Files/nodejs/rc.exe"
+      - "C:/Program Files/nodejs/rc"
+      - "C:/Program Files (x86)/CMake/bin/rc.com"
+      - "C:/Program Files (x86)/CMake/bin/rc.exe"
+      - "C:/Program Files (x86)/CMake/bin/rc"
+      - "C:/Program Files/LLVM/bin/rc.com"
+      - "C:/Program Files/LLVM/bin/rc.exe"
+      - "C:/Program Files/LLVM/bin/rc"
+      - "C:/MinGW/rc.com"
+      - "C:/MinGW/rc.exe"
+      - "C:/MinGW/rc"
+      - "C:/Users/admin/.cargo/bin/rc.com"
+      - "C:/Users/admin/.cargo/bin/rc.exe"
+      - "C:/Users/admin/.cargo/bin/rc"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/rc.com"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/rc.exe"
+    found: "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/rc"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Deoxys"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files (x86)/Deoxys"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-2vfhri"
+      binary: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-2vfhri"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-2vfhri'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c0b75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.5+e22287bf1 for .NET Framework
+        Build started 03-Jul-2026 13:54:59.
+        
+        Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vfhri\\cmTC_c0b75.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vfhri\\Debug\\".
+          Creating directory "cmTC_c0b75.dir\\Debug\\cmTC_c0b75.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c0b75.dir\\Debug\\cmTC_c0b75.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c0b75.dir\\Debug\\cmTC_c0b75.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_c0b75.dir\\Debug\\\\" /Fd"cmTC_c0b75.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /Fo"cmTC_c0b75.dir\\Debug\\\\" /Fd"cmTC_c0b75.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vfhri\\Debug\\cmTC_c0b75.exe" /INCREMENTAL /ILK:"cmTC_c0b75.dir\\Debug\\cmTC_c0b75.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-2vfhri/Debug/cmTC_c0b75.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-2vfhri/Debug/cmTC_c0b75.lib" /MACHINE:X64  /machine:x64 cmTC_c0b75.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c0b75.vcxproj -> C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vfhri\\Debug\\cmTC_c0b75.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c0b75.dir\\Debug\\cmTC_c0b75.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c0b75.dir\\Debug\\cmTC_c0b75.tlog\\cmTC_c0b75.lastbuildstate".
+        Done Building Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2vfhri\\cmTC_c0b75.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.90
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/"
+    found: "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Deoxys"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 18.0.5+e22287bf1 for .NET Framework
+      Build started 03-Jul-2026 14:01:06.
+      
+      Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\4.3.4\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc145.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\4.3.4\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\4.3.4\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.24
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/4.3.4/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-c8utad"
+      binary: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-c8utad"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-c8utad'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_08717.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.5+e22287bf1 for .NET Framework
+        Build started 03-Jul-2026 14:01:08.
+        
+        Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8utad\\cmTC_08717.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8utad\\Debug\\".
+          Creating directory "cmTC_08717.dir\\Debug\\cmTC_08717.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_08717.dir\\Debug\\cmTC_08717.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_08717.dir\\Debug\\cmTC_08717.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_08717.dir\\Debug\\\\" /Fd"cmTC_08717.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_08717.dir\\Debug\\\\" /Fd"cmTC_08717.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files (x86)\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8utad\\Debug\\cmTC_08717.exe" /INCREMENTAL /ILK:"cmTC_08717.dir\\Debug\\cmTC_08717.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-c8utad/Debug/cmTC_08717.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-c8utad/Debug/cmTC_08717.lib" /MACHINE:X64  /machine:x64 cmTC_08717.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_08717.vcxproj -> C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8utad\\Debug\\cmTC_08717.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_08717.dir\\Debug\\cmTC_08717.tlog\\unsuccessfulbuild".
+          Touching "cmTC_08717.dir\\Debug\\cmTC_08717.tlog\\cmTC_08717.lastbuildstate".
+        Done Building Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c8utad\\cmTC_08717.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.89
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.50.35717/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.50.35723.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "GLFW/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-pv3bgk"
+      binary: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-pv3bgk"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Desktop/Krushna/deoxys/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-pv3bgk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7aa51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.5+e22287bf1 for .NET Framework
+        Build started 03-Jul-2026 14:01:09.
+        
+        Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\cmTC_7aa51.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\Debug\\".
+          Creating directory "cmTC_7aa51.dir\\Debug\\cmTC_7aa51.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_7aa51.dir\\Debug\\cmTC_7aa51.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7aa51.dir\\Debug\\cmTC_7aa51.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7aa51.dir\\Debug\\\\" /Fd"cmTC_7aa51.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7aa51.dir\\Debug\\\\" /Fd"cmTC_7aa51.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\src.c"
+          src.c
+        C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\cmTC_7aa51.vcxproj]
+        Done Building Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\cmTC_7aa51.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\cmTC_7aa51.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pv3bgk\\cmTC_7aa51.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.51
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindThreads.cmake:238 (_threads_check_lib)"
+      - "GLFW/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-r0w9vn"
+      binary: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-r0w9vn"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Desktop/Krushna/deoxys/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-r0w9vn'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e26ac.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.5+e22287bf1 for .NET Framework
+        Build started 03-Jul-2026 14:01:10.
+        
+        Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\cmTC_e26ac.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\Debug\\".
+          Creating directory "cmTC_e26ac.dir\\Debug\\cmTC_e26ac.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_e26ac.dir\\Debug\\cmTC_e26ac.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e26ac.dir\\Debug\\cmTC_e26ac.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e26ac.dir\\Debug\\\\" /Fd"cmTC_e26ac.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e26ac.dir\\Debug\\\\" /Fd"cmTC_e26ac.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\Debug\\cmTC_e26ac.exe" /INCREMENTAL /ILK:"cmTC_e26ac.dir\\Debug\\cmTC_e26ac.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-r0w9vn/Debug/cmTC_e26ac.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-r0w9vn/Debug/cmTC_e26ac.lib" /MACHINE:X64  /machine:x64 cmTC_e26ac.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\cmTC_e26ac.vcxproj]
+        Done Building Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\cmTC_e26ac.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\cmTC_e26ac.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0w9vn\\cmTC_e26ac.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.80
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/CheckLibraryExists.cmake:154 (try_compile)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindThreads.cmake:175 (check_library_exists)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindThreads.cmake:239 (_threads_check_lib)"
+      - "GLFW/CMakeLists.txt:48 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-qstjp4"
+      binary: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-qstjp4"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/admin/Desktop/Krushna/deoxys/GLFW/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-qstjp4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c213d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        MSBuild version 18.0.5+e22287bf1 for .NET Framework
+        Build started 03-Jul-2026 14:01:11.
+        
+        Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\cmTC_c213d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\Debug\\".
+          Creating directory "cmTC_c213d.dir\\Debug\\cmTC_c213d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c213d.dir\\Debug\\cmTC_c213d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c213d.dir\\Debug\\cmTC_c213d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c213d.dir\\Debug\\\\" /Fd"cmTC_c213d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35723 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c213d.dir\\Debug\\\\" /Fd"cmTC_c213d.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\Debug\\cmTC_c213d.exe" /INCREMENTAL /ILK:"cmTC_c213d.dir\\Debug\\cmTC_c213d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-qstjp4/Debug/cmTC_c213d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/CMakeScratch/TryCompile-qstjp4/Debug/cmTC_c213d.lib" /MACHINE:X64  /machine:x64 cmTC_c213d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\cmTC_c213d.vcxproj]
+        Done Building Project "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\cmTC_c213d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\cmTC_c213d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\admin\\Desktop\\Krushna\\deoxys\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qstjp4\\cmTC_c213d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.34
+        
+      exitCode: 1
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindDoxygen.cmake:770 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindDoxygen.cmake:955 (_Doxygen_find_doxygen)"
+      - "GLFW/docs/CMakeLists.txt:39 (find_package)"
+    mode: "program"
+    variable: "DOXYGEN_EXECUTABLE"
+    description: "Doxygen documentation generation tool (https://www.doxygen.nl)"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "doxygen"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/admin/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/MinGW/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/node_modules/.bin/"
+      - "C:/Users/admin/node_modules/.bin/"
+      - "C:/Users/node_modules/.bin/"
+      - "C:/node_modules/.bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/AppData/Local/Python/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files (x86)/Deoxys/bin/"
+      - "C:/Program Files (x86)/Deoxys/sbin/"
+      - "C:/Program Files (x86)/Deoxys/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "/Applications/Doxygen.app/Contents/Resources/"
+      - "/Applications/Doxygen.app/Contents/MacOS/"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/doxygen.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/doxygen.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/doxygen"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/doxygen"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/doxygen.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/doxygen.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/doxygen"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/doxygen.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/doxygen.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/doxygen"
+      - "C:/Windows/SysWOW64/doxygen.com"
+      - "C:/Windows/SysWOW64/doxygen.exe"
+      - "C:/Windows/SysWOW64/doxygen"
+      - "C:/Windows/doxygen.com"
+      - "C:/Windows/doxygen.exe"
+      - "C:/Windows/doxygen"
+      - "C:/Windows/SysWOW64/wbem/doxygen.com"
+      - "C:/Windows/SysWOW64/wbem/doxygen.exe"
+      - "C:/Windows/SysWOW64/wbem/doxygen"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/doxygen.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/doxygen.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/doxygen"
+      - "C:/Windows/SysWOW64/OpenSSH/doxygen.com"
+      - "C:/Windows/SysWOW64/OpenSSH/doxygen.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/doxygen"
+      - "C:/Program Files/Git/cmd/doxygen.com"
+      - "C:/Program Files/Git/cmd/doxygen.exe"
+      - "C:/Program Files/Git/cmd/doxygen"
+      - "C:/Users/admin/doxygen.com"
+      - "C:/Users/admin/doxygen.exe"
+      - "C:/Users/admin/doxygen"
+      - "C:/TDM-GCC-64/bin/doxygen.com"
+      - "C:/TDM-GCC-64/bin/doxygen.exe"
+      - "C:/TDM-GCC-64/bin/doxygen"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/doxygen.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/doxygen.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/doxygen"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/doxygen.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/doxygen.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/doxygen"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/doxygen.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/doxygen.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/doxygen"
+      - "C:/ProgramData/chocolatey/bin/doxygen.com"
+      - "C:/ProgramData/chocolatey/bin/doxygen.exe"
+      - "C:/ProgramData/chocolatey/bin/doxygen"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/doxygen"
+      - "C:/Program Files (x86)/Incredibuild/doxygen.com"
+      - "C:/Program Files (x86)/Incredibuild/doxygen.exe"
+      - "C:/Program Files (x86)/Incredibuild/doxygen"
+      - "C:/Program Files (x86)/GnuWin32/bin/doxygen.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/doxygen.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/doxygen"
+      - "C:/Program Files/GitHub CLI/doxygen.com"
+      - "C:/Program Files/GitHub CLI/doxygen.exe"
+      - "C:/Program Files/GitHub CLI/doxygen"
+      - "C:/Program Files/dotnet/doxygen.com"
+      - "C:/Program Files/dotnet/doxygen.exe"
+      - "C:/Program Files/dotnet/doxygen"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/doxygen.com"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/doxygen.exe"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/doxygen"
+      - "C:/Program Files/nodejs/doxygen.com"
+      - "C:/Program Files/nodejs/doxygen.exe"
+      - "C:/Program Files/nodejs/doxygen"
+      - "C:/Program Files (x86)/CMake/bin/doxygen.com"
+      - "C:/Program Files (x86)/CMake/bin/doxygen.exe"
+      - "C:/Program Files (x86)/CMake/bin/doxygen"
+      - "C:/Program Files/LLVM/bin/doxygen.com"
+      - "C:/Program Files/LLVM/bin/doxygen.exe"
+      - "C:/Program Files/LLVM/bin/doxygen"
+      - "C:/MinGW/doxygen.com"
+      - "C:/MinGW/doxygen.exe"
+      - "C:/MinGW/doxygen"
+      - "C:/Users/admin/.cargo/bin/doxygen.com"
+      - "C:/Users/admin/.cargo/bin/doxygen.exe"
+      - "C:/Users/admin/.cargo/bin/doxygen"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/doxygen.com"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/doxygen.exe"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/doxygen"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/doxygen.com"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/doxygen.exe"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/doxygen"
+      - "C:/Users/admin/Desktop/node_modules/.bin/doxygen.com"
+      - "C:/Users/admin/Desktop/node_modules/.bin/doxygen.exe"
+      - "C:/Users/admin/Desktop/node_modules/.bin/doxygen"
+      - "C:/Users/admin/node_modules/.bin/doxygen.com"
+      - "C:/Users/admin/node_modules/.bin/doxygen.exe"
+      - "C:/Users/admin/node_modules/.bin/doxygen"
+      - "C:/Users/node_modules/.bin/doxygen.com"
+      - "C:/Users/node_modules/.bin/doxygen.exe"
+      - "C:/Users/node_modules/.bin/doxygen"
+      - "C:/node_modules/.bin/doxygen.com"
+      - "C:/node_modules/.bin/doxygen.exe"
+      - "C:/node_modules/.bin/doxygen"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/doxygen.com"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/doxygen.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/doxygen"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/doxygen.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/doxygen"
+      - "C:/Users/admin/AppData/Local/Python/bin/doxygen.com"
+      - "C:/Users/admin/AppData/Local/Python/bin/doxygen.exe"
+      - "C:/Users/admin/AppData/Local/Python/bin/doxygen"
+      - "C:/Users/admin/AppData/Roaming/npm/doxygen.com"
+      - "C:/Users/admin/AppData/Roaming/npm/doxygen.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/doxygen"
+      - "C:/Program Files/bin/doxygen.com"
+      - "C:/Program Files/bin/doxygen.exe"
+      - "C:/Program Files/bin/doxygen"
+      - "C:/Program Files/sbin/doxygen.com"
+      - "C:/Program Files/sbin/doxygen.exe"
+      - "C:/Program Files/sbin/doxygen"
+      - "C:/Program Files/doxygen.com"
+      - "C:/Program Files/doxygen.exe"
+      - "C:/Program Files/doxygen"
+      - "C:/Program Files (x86)/bin/doxygen.com"
+      - "C:/Program Files (x86)/bin/doxygen.exe"
+      - "C:/Program Files (x86)/bin/doxygen"
+      - "C:/Program Files (x86)/sbin/doxygen.com"
+      - "C:/Program Files (x86)/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/sbin/doxygen"
+      - "C:/Program Files (x86)/doxygen.com"
+      - "C:/Program Files (x86)/doxygen.exe"
+      - "C:/Program Files (x86)/doxygen"
+      - "C:/Program Files (x86)/CMake/bin/doxygen.com"
+      - "C:/Program Files (x86)/CMake/bin/doxygen.exe"
+      - "C:/Program Files (x86)/CMake/bin/doxygen"
+      - "C:/Program Files (x86)/CMake/sbin/doxygen.com"
+      - "C:/Program Files (x86)/CMake/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/CMake/sbin/doxygen"
+      - "C:/Program Files (x86)/CMake/doxygen.com"
+      - "C:/Program Files (x86)/CMake/doxygen.exe"
+      - "C:/Program Files (x86)/CMake/doxygen"
+      - "C:/Program Files (x86)/Deoxys/bin/doxygen.com"
+      - "C:/Program Files (x86)/Deoxys/bin/doxygen.exe"
+      - "C:/Program Files (x86)/Deoxys/bin/doxygen"
+      - "C:/Program Files (x86)/Deoxys/sbin/doxygen.com"
+      - "C:/Program Files (x86)/Deoxys/sbin/doxygen.exe"
+      - "C:/Program Files (x86)/Deoxys/sbin/doxygen"
+      - "C:/Program Files (x86)/Deoxys/doxygen.com"
+      - "C:/Program Files (x86)/Deoxys/doxygen.exe"
+      - "C:/Program Files (x86)/Deoxys/doxygen"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.com"
+      - "/REGISTRY-NOTFOUND/bin/doxygen.exe"
+      - "/REGISTRY-NOTFOUND/bin/doxygen"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Doxygen.app/Contents/MacOS/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/Resources/doxygen"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.com"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen.exe"
+      - "/Applications/Utilities/Doxygen.app/Contents/MacOS/doxygen"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Deoxys"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files (x86)/Deoxys"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1887 (find_package)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FetchContent.cmake:1622 (__FetchContent_populateSubbuild)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2158 (cmake_language)"
+      - "C:/Program Files (x86)/CMake/share/cmake-4.3/Modules/FetchContent.cmake:2399 (__FetchContent_Populate)"
+      - "CMakeLists.txt:10 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/"
+      - "C:/Windows/SysWOW64/"
+      - "C:/Windows/"
+      - "C:/Windows/SysWOW64/wbem/"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/"
+      - "C:/Windows/SysWOW64/OpenSSH/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Users/admin/"
+      - "C:/TDM-GCC-64/bin/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/Incredibuild/"
+      - "C:/Program Files (x86)/GnuWin32/bin/"
+      - "C:/Program Files/GitHub CLI/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files/LLVM/bin/"
+      - "C:/MinGW/"
+      - "C:/Users/admin/.cargo/bin/"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/"
+      - "C:/Users/admin/Desktop/node_modules/.bin/"
+      - "C:/Users/admin/node_modules/.bin/"
+      - "C:/Users/node_modules/.bin/"
+      - "C:/node_modules/.bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/admin/AppData/Local/Python/bin/"
+      - "C:/Users/admin/AppData/Roaming/npm/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files (x86)/CMake/bin/"
+      - "C:/Program Files (x86)/CMake/sbin/"
+      - "C:/Program Files (x86)/CMake/"
+      - "C:/Program Files (x86)/Deoxys/bin/"
+      - "C:/Program Files (x86)/Deoxys/sbin/"
+      - "C:/Program Files (x86)/Deoxys/"
+      - "C:/Users/admin/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.cmd"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/git.cmd.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/git.cmd"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/git.cmd.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/git.cmd.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/git.cmd"
+      - "C:/Windows/SysWOW64/git.cmd.com"
+      - "C:/Windows/SysWOW64/git.cmd.exe"
+      - "C:/Windows/SysWOW64/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/SysWOW64/wbem/git.cmd.com"
+      - "C:/Windows/SysWOW64/wbem/git.cmd.exe"
+      - "C:/Windows/SysWOW64/wbem/git.cmd"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/SysWOW64/OpenSSH/git.cmd.com"
+      - "C:/Windows/SysWOW64/OpenSSH/git.cmd.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Users/admin/git.cmd.com"
+      - "C:/Users/admin/git.cmd.exe"
+      - "C:/Users/admin/git.cmd"
+      - "C:/TDM-GCC-64/bin/git.cmd.com"
+      - "C:/TDM-GCC-64/bin/git.cmd.exe"
+      - "C:/TDM-GCC-64/bin/git.cmd"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/git.cmd"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/git.cmd"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Android/Sdk/emulator/git.cmd"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.com"
+      - "C:/ProgramData/chocolatey/bin/git.cmd.exe"
+      - "C:/ProgramData/chocolatey/bin/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Program Files (x86)/Incredibuild/git.cmd.com"
+      - "C:/Program Files (x86)/Incredibuild/git.cmd.exe"
+      - "C:/Program Files (x86)/Incredibuild/git.cmd"
+      - "C:/Program Files (x86)/GnuWin32/bin/git.cmd.com"
+      - "C:/Program Files (x86)/GnuWin32/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/GnuWin32/bin/git.cmd"
+      - "C:/Program Files/GitHub CLI/git.cmd.com"
+      - "C:/Program Files/GitHub CLI/git.cmd.exe"
+      - "C:/Program Files/GitHub CLI/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/git.cmd.com"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/git.cmd.exe"
+      - "C:/Users/admin/Desktop/Krushna/random_shi/git.cmd"
+      - "C:/Program Files/nodejs/git.cmd.com"
+      - "C:/Program Files/nodejs/git.cmd.exe"
+      - "C:/Program Files/nodejs/git.cmd"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd.com"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd"
+      - "C:/Program Files/LLVM/bin/git.cmd.com"
+      - "C:/Program Files/LLVM/bin/git.cmd.exe"
+      - "C:/Program Files/LLVM/bin/git.cmd"
+      - "C:/MinGW/git.cmd.com"
+      - "C:/MinGW/git.cmd.exe"
+      - "C:/MinGW/git.cmd"
+      - "C:/Users/admin/.cargo/bin/git.cmd.com"
+      - "C:/Users/admin/.cargo/bin/git.cmd.exe"
+      - "C:/Users/admin/.cargo/bin/git.cmd"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/git.cmd.com"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/git.cmd.exe"
+      - "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/git.cmd"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/git.cmd.com"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/git.cmd.exe"
+      - "C:/Users/admin/Desktop/Krushna/node_modules/.bin/git.cmd"
+      - "C:/Users/admin/Desktop/node_modules/.bin/git.cmd.com"
+      - "C:/Users/admin/Desktop/node_modules/.bin/git.cmd.exe"
+      - "C:/Users/admin/Desktop/node_modules/.bin/git.cmd"
+      - "C:/Users/admin/node_modules/.bin/git.cmd.com"
+      - "C:/Users/admin/node_modules/.bin/git.cmd.exe"
+      - "C:/Users/admin/node_modules/.bin/git.cmd"
+      - "C:/Users/node_modules/.bin/git.cmd.com"
+      - "C:/Users/node_modules/.bin/git.cmd.exe"
+      - "C:/Users/node_modules/.bin/git.cmd"
+      - "C:/node_modules/.bin/git.cmd.com"
+      - "C:/node_modules/.bin/git.cmd.exe"
+      - "C:/node_modules/.bin/git.cmd"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/git.cmd.com"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/git.cmd.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/git.cmd"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/Users/admin/AppData/Local/Python/bin/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Python/bin/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Python/bin/git.cmd"
+      - "C:/Users/admin/AppData/Roaming/npm/git.cmd.com"
+      - "C:/Users/admin/AppData/Roaming/npm/git.cmd.exe"
+      - "C:/Users/admin/AppData/Roaming/npm/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd.com"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/CMake/bin/git.cmd"
+      - "C:/Program Files (x86)/CMake/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/CMake/sbin/git.cmd"
+      - "C:/Program Files (x86)/CMake/git.cmd.com"
+      - "C:/Program Files (x86)/CMake/git.cmd.exe"
+      - "C:/Program Files (x86)/CMake/git.cmd"
+      - "C:/Program Files (x86)/Deoxys/bin/git.cmd.com"
+      - "C:/Program Files (x86)/Deoxys/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/Deoxys/bin/git.cmd"
+      - "C:/Program Files (x86)/Deoxys/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/Deoxys/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/Deoxys/sbin/git.cmd"
+      - "C:/Program Files (x86)/Deoxys/git.cmd.com"
+      - "C:/Program Files (x86)/Deoxys/git.cmd.exe"
+      - "C:/Program Files (x86)/Deoxys/git.cmd"
+      - "C:/Users/admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/admin/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/git"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.com"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git.exe"
+      - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/git"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/git.com"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/git.exe"
+      - "C:/Program Files (x86)/VMware/VMware Player/bin/git"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/git.com"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/git.exe"
+      - "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/bin/git"
+      - "C:/Windows/SysWOW64/git.com"
+      - "C:/Windows/SysWOW64/git.exe"
+      - "C:/Windows/SysWOW64/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/SysWOW64/wbem/git.com"
+      - "C:/Windows/SysWOW64/wbem/git.exe"
+      - "C:/Windows/SysWOW64/wbem/git"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/SysWOW64/OpenSSH/git.com"
+      - "C:/Windows/SysWOW64/OpenSSH/git.exe"
+      - "C:/Windows/SysWOW64/OpenSSH/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Deoxys"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files (x86)/Deoxys"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:12 (find_package)"
+    name: "glfw3"
+    configs:
+      -
+        filename: "glfw3.cps"
+        kind: "cps"
+      -
+        filename: "glfw3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "glfw3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glfw3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/pkgRedirects/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/pkgRedirects/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/pkgRedirects/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Desktop/Krushna/deoxys/build/CMakeFiles/pkgRedirects/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Player/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Player/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Player/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/VMware/VMware Player/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Microsoft/jdk-17.0.15.6-hotspot/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/wbem/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/wbem/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/wbem/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/wbem/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Windows/SysWOW64/WindowsPowerShell/v1.0/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/Git/cmd/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/TDM-GCC-64/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/TDM-GCC-64/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/TDM-GCC-64/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/TDM-GCC-64/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/platform-tools/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/emulator/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/emulator/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/emulator/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Android/Sdk/emulator/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/ProgramData/chocolatey/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Incredibuild/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Incredibuild/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Incredibuild/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/Incredibuild/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/GnuWin32/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/GnuWin32/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/GnuWin32/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/GnuWin32/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/GitHub CLI/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/dotnet/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/nodejs/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/CMake/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/CMake/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/CMake/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/CMake/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/LLVM/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/MinGW/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.cargo/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.cargo/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.cargo/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/.cargo/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/Desktop/Krushna/radon/node_modules/.bin/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Programs/Microsoft VS Code/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Python/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Python/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Python/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Local/Python/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Users/admin/AppData/Roaming/npm/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/CMake/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/CMake/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/lib/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "C:/Program Files (x86)/share/cps/glfw3.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Users\\admin\\"
+        - "C:\\TDM-GCC-64\\bin\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\platform-tools"
+        - "C:\\Users\\admin\\AppData\\Local\\Android\\Sdk\\emulator"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\Incredibuild"
+        - "C:\\Program Files (x86)\\GnuWin32\\bin"
+        - "C:\\Program Files\\GitHub CLI\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\random_shi"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\CMake\\bin"
+        - "C:\\Program Files\\LLVM\\bin\\"
+        - "C:\\MinGW"
+        - "C:\\Users\\admin\\.cargo\\bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\radon\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\Krushna\\node_modules\\.bin"
+        - "C:\\Users\\admin\\Desktop\\node_modules\\.bin"
+        - "C:\\Users\\admin\\node_modules\\.bin"
+        - "C:\\Users\\node_modules\\.bin"
+        - "C:\\node_modules\\.bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
+        - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\Program Files (x86)\\VMware\\VMware Player\\bin\\"
+        - "C:\\Program Files\\Microsoft\\jdk-17.0.15.6-hotspot\\bin"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0"
+        - "C:\\Users\\admin\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\admin\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\admin\\AppData\\Roaming\\npm"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Deoxys"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files (x86)/CMake"
+        - "C:/Program Files (x86)/Deoxys"
+...

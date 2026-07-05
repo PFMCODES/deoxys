@@ -1,9 +1,10 @@
 #include <iostream>
 #include "./window.h"
 #include <glad/gl.h>
+#include <cstdio>
 
 int main() {
-    GLFWwindow* window = createWindow("test window", new int(600), new int(800));
+    GLFWwindow* window = createWindow("Deoxys", new int(600), new int(800), true);
 
     while (!glfwWindowShouldClose(window))
     {
